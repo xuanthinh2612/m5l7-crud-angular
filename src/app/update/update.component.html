@@ -1,0 +1,9 @@
+<p>update works!</p>
+
+<form (ngSubmit)="updateProduct()">
+  <label>Name</label>
+  <input name = "name" type="text" [(ngModel)]="product.name">
+  <label>Description</label>
+  <input name = "description" type="text" [(ngModel)]="product.description">
+  <button type="submit" >Update Product</button>
+</form>
